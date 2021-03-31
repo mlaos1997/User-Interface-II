@@ -155,7 +155,7 @@ table {
     nav {
         flex-direction: column;
         text-align: center;
-        margin: 0 auto;
+        margin: 1rem auto;
 
     }
 
@@ -172,11 +172,13 @@ table {
     .projects {
         width: 100%;
         display: flex;
+        margin: 0 auto;
+        justify-content: space-around;
     }
 
     .project {
-        max-width: 45%;
-        padding: 1rem;
+        max-width: 49%;
+        padding: .8rem;
     }
 
     .project-photo {
@@ -186,6 +188,13 @@ table {
 
     footer {
         max-width: 800px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        width: 95%;
     }
 
 }
